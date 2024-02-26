@@ -9,7 +9,7 @@
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-image: url(projectbackground.jpg);
+    background-image: url("projectbackground.jpg");
     background-size: cover;
     background-position: center;
   }
@@ -48,16 +48,23 @@
   .input-box input::placeholder{
     color: #fff;
   }
-  .patient .btn{
+   .btn{
     width: 100%;
     height: 45px;
-    background: #0048ff;
+    background: #0c51fd;
     border: none;
     outline: none;
     border-radius: 40px;
     box-shadow: 0 0 10px rgba(0, 0, 0, .1);
     cursor: pointer;
-    font-size: 16px;
-    color: #333;
-    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: #050404;
+  }
+  .box2{
+    margin: 10px;
+  }
+  .box2 a{
+    text-decoration: none;
+    color: #fff;
   }
